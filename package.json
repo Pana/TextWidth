@@ -1,0 +1,30 @@
+{
+  "name": "TextWidth",
+  "version": "0.0.0",
+  "description": "calculate width of text",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Pana/TextWidth.git"
+  },
+  "dependencies": {
+    "canvas": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "text",
+    "width",
+    "calculate"
+  ],
+  "author": "Pana Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pana/TextWidth/issues"
+  },
+  "homepage": "https://github.com/Pana/TextWidth"
+}
