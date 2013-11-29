@@ -1,3 +1,3 @@
 var tw = require('../index')
 
-console.log(tw("Hello, World!!!", '20px Arial'))
+console.log(tw("东直", '10px Arial'))

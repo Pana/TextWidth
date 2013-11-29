@@ -28,6 +28,10 @@ var width = tw("Set the text font", "10px Arial")
 * 完善文档
 * 发布到npm
 
+## Bug 
+
+* 中文字体宽度偏差
+
 ## Roadmap
     
 * 计算高度
