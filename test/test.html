@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TextWidth 测试页面</title>
+    <meta charset='utf8'/>
+    <style type="text/css">
+        #canvas{
+            border: 1px solid blue;        
+        }
+    </style>
+</head>
+<body>
+    <h1>TextWidth测试</h1>
+    <canvas id='canvas' width='500' height='500'></canvas>
+
+    <script type="text/javascript">
+        var canvas = document.getElementById('canvas')
+            , ctx = canvas.getContext('2d')
+
+
+            ctx.strokeStyle = 'blue'
+            ctx.strokeRect(100, 100, 125, 20)
+
+            ctx.font = '20px Arial'
+            ctx.textBaseline = 'top'
+            // ctx.textAlign = 'left'
+            ctx.fillText("Hello, World!!!",100, 100)
+
+    </script>
+</body>
+</html>
